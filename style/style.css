@@ -1,0 +1,187 @@
+.menu_container,.banner_container{
+display: flex;
+padding: 25px 0px;
+/*justify-content:center;*/
+background-color: #1f2937;
+color: aliceblue;
+}
+
+.banner_container{
+   padding: 25px 200px;
+}
+
+.menu{
+width: 1920px;
+display: flex;
+justify-content:space-around;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.logo_img{
+    font-family:Trattatello, fantasy;	
+    background-color: #1f2937;
+    color: aliceblue;
+    font-size:larger;
+
+}
+
+.links
+{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.About_us,.Miniwheels,.contact_us{
+    letter-spacing: 2px;
+    margin-left: 45px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    cursor:pointer;
+}
+
+.banner{
+    /*width: 1920px;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #f9faf8;  
+    margin: 5px;
+
+}
+
+.banner_desc{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E7EB;
+    margin: 5px;
+    line-height: 1.5;
+}
+
+.sign_up button{
+    margin: 5px;
+    border-radius: 8px;
+    display: inline-block;
+    background-color: #3882F6;
+    border: none;
+    padding: 10px 20px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.photo_grid_container{
+    display: flex;
+    justify-content:center;
+    padding: 25px 0px;
+}
+
+
+.photo_grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.photo_grid_title{
+    display: flex;
+    justify-content: center;
+    font-family: system-ui;
+    font-weight:800;
+
+
+}
+
+.photo_grid_items{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px;
+   /* border: 1px solid red;*/
+}
+
+.photo_grid_item1{
+    border-radius: 25px;
+    width: 200px;
+    height: 250px;
+   /* border: 1px solid blue;*/
+}
+
+.photo_grid_item1_img{
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 170px;
+    height: 170px;
+}
+.photo_grid_item1_txt{
+    font-family: 'Courier New', monospace;
+    padding: .3em;
+}
+
+.quotes_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 30px;
+}
+
+.quotes{
+    display: flex;
+    justify-content: center;
+    font-family: Courier, monospace	;
+    font-style: italic;
+    font-size:large;
+    width: 550px;
+    height: 150px;
+    padding: 15px;
+}
+
+.quotes_by{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    width: 550px;
+}
+
+.footer_container{
+   display: flex;
+   justify-content: center;
+   background-color:#3882F6;
+   padding: 50px;
+   margin: 5em 200px 5em 200px;
+   border-radius: 4px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_text{
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E5E7EB;
+    margin: 0 5em 0 0;
+    padding-top: .5em;
+}
+
+.footer_button button{
+    border-radius: 8px;
+    display: inline-block;
+    background-color: #3882F6;
+    border:1px solid white;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    padding: .5em 1.5em .5em 1.5em;
+}
